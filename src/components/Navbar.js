@@ -2,6 +2,7 @@ import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
+import { CartWidget } from './CartWidget.js'
 
 
 const Navbarr = () => {
@@ -30,6 +31,7 @@ const Navbarr = () => {
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
+                <CartWidget />
             </Container>
         </Navbar>
     );
